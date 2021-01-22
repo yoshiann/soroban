@@ -1,6 +1,12 @@
 class MapsController < ApplicationController
-  def index
 
+  def arai
+  end
+
+  def ikeda
+  end
+
+  def place
   end
 
 end

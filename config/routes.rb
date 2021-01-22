@@ -1,4 +1,7 @@
 Rails.application.routes.draw do
+  get "maps/place" => "maps#place"
+  get "maps/arai" => "maps#arai"
+  get "maps/ikeda" => "maps#ikeda"
   
   post "likes/:post_id/create" => "likes#create"
   post "likes/:post_id/destroy" => "likes#destroy"
